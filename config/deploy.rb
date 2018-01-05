@@ -1,6 +1,6 @@
 # Change the 'YOUR_AZURE_VM_IP' to the publicIpAddress from the output of
 # `az vm create` command executed above
-server 'YOUR_AZURE_VM_IP', roles: [:web, :app, :db], primary: true
+server '13.64.117.232', roles: [:web, :app, :db], primary: true
 
 # Change the YOUR_GITHUB_NAME to your github user name
 set :repo_url,        'git@github.com:zhenjiao/level0.git'
